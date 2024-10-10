@@ -12,15 +12,15 @@
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "8DB3A5B1",
+        "cacheKey" : "D08CC718",
         "caption" : "NAT_long",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=NAT_long&cache_key=8DB3A5B1",
-        "displayedObservations" : 575,
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=NAT_long&cache_key=D08CC718",
+        "displayedObservations" : "575",
         "environment" : "",
         "object" : "NAT_long",
-        "preview" : 0,
-        "totalObservations" : 575,
-        "variables" : 3
+        "preview" : "0",
+        "totalObservations" : "575",
+        "variables" : "3"
     },
     "relative_order" : 4,
     "source_on_save" : false,

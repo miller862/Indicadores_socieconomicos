@@ -1,5 +1,8 @@
 library(tidyverse)
 library(ggplot2)
+library(readxl)
+
+### SECCION 1: NACIDOS VIVOS ARGENTINA
 
 #LECTURA DE DATOS
 nac05<-read.csv("datos/nacweb05.csv") %>% 
@@ -88,12 +91,28 @@ NAC_ANUALES_PROV<-todo %>%
   group_by(PROVINCIA,ANIO) %>% 
   summarise(TOTAL=sum(CUENTA)) 
 
-### NATALIDAD
+ggplot(NAC_ANUALES_PROV, aes(x = ANIO, y = TOTAL, color = PROVINCIA, group = PROVINCIA)) +
+  geom_line(aes(size = ifelse(PROVINCIA %in% c("Misiones", "CABA","Buenos Aires"), 1.5, 0.5))) +  
+  scale_size_identity() +  # Mantiene los tamaños especificados
+  labs(title = "Gráfico de Múltiples Líneas",
+       x = "Tiempo",
+       y = "Valor",
+       color = "Variables") +
+  theme_minimal()+
+  guides(color = guide_legend(ncol = 1))
 
-NAT<- read.csv("datos/NATALIDADDEIS2000-2022.csv") %>% 
-  rename("ANIO"="indice_tiempo") %>% 
-  mutate(ANIO=as.integer(substr(ANIO,1,4)))
+### SECCION 2: NATALIDAD ARGENTINA
+#Def: nacimientos cada mil habitantes en un tiempo determinado
 
+NAT <- read.csv("datos/NATALIDADDEIS2000-2022.csv") %>% 
+  rename("ANIO" = "indice_tiempo") %>% 
+  mutate(ANIO = as.integer(substr(ANIO, 1, 4))) %>%
+  rename_with(~ c("ANIO", "totalARG", "CABA", "Buenos Aires", "Catamarca", "Córdoba",  
+                  "Corrientes", "Chaco", "Chubut", "Entre Ríos", "Formosa", "Jujuy", 
+                  "La Pampa", "La Rioja", "Mendoza", "Misiones", "Neuquén", "Río Negro", 
+                  "Salta", "San Juan", "San Luis", "Santa Cruz", "Santa Fe", 
+                  "Santiago del Estero", "Tucumán", "Tierra del Fuego"), 
+              .cols = everything())
 
 # Reestructurar el dataframe de formato "wide" a "long"
 NAT_long <- NAT %>%
@@ -101,14 +120,24 @@ NAT_long <- NAT %>%
 
 # Crear el gráfico de líneas
 ggplot(NAT_long, aes(x = ANIO, y = valor, color = PROVINCIA, group = PROVINCIA)) +
-  geom_line() +
+  geom_line(aes(size = ifelse(PROVINCIA %in% c("Misiones","CABA", "totalARG"), 0.7, 0.5))) +
   labs(title = "Gráfico de Múltiples Líneas",
        x = "Tiempo",
        y = "Valor",
        color = "Variables") +
   theme_minimal()
 
+ggplot(NAT_long, aes(x = ANIO, y = valor, color = PROVINCIA, group = PROVINCIA)) +
+  geom_line(aes(size = ifelse(PROVINCIA %in% c("Misiones", "CABA", "totalARG"), 1.5, 0.5))) +  
+  scale_size_identity() +  # Mantiene los tamaños especificados
+  labs(title = "Gráfico de Múltiples Líneas",
+       x = "Tiempo",
+       y = "Valor",
+       color = "Variables") +
+  theme_minimal()+
+  guides(color = guide_legend(ncol = 1))
 
+#MINMOS Y MAXIMOS
            #AÑO 2000
 
 #MINIMO
@@ -134,3 +163,40 @@ NAT_long %>%
 
 
 
+
+
+### SECCION 3: FECUNDIDAD Banco mundial
+#def: La tasa de fertilidad o fecundidad total representa el número de hijos que tendría una mujer si viviera hasta el final de sus años fértiles
+#y tuviera hijos de acuerdo con las tasas de fertilidad específicas por edad del año especificado.
+
+FECBM <- read_xls("datos/fecundidadBM.xls") %>% 
+  select(-"Indicator Code",-"Country Code", -"Indicator Name")
+
+SeleccionFECBM <-FECBM %>% 
+  filter(`Country Name`%in% c("Argentina","Brasil","Bolivia","México","Alemania","Estados Unidos","Corea, República de", "Federación de Rusia","Mundo"))
+
+# Reestructurar el dataframe de formato "wide" a "long"
+seleccion_long <- SeleccionFECBM %>%
+  pivot_longer(-`Country Name`, names_to = "ANIO", values_to = "FEC") %>% 
+  mutate(ANIO= as.integer(ANIO),
+         "Country Name"= as.factor(`Country Name`)) %>% 
+  filter(ANIO != 2023)
+
+
+valor_arg_2022 <- seleccion_long %>%
+  filter(`Country Name` == "Argentina" & ANIO == 2022) %>%
+  pull(FEC)
+
+ggplot(seleccion_long, aes(x = ANIO, y = FEC, color = `Country Name`, group = `Country Name`)) +
+  geom_line(aes(size = ifelse(`Country Name` %in% c("Argentina", "Mundo"), 1.5, 0.5))) +
+  geom_hline(yintercept = valor_arg_2022, linetype = "dashed", color = "red") +  # Línea horizontal de guía
+  labs(title = "Gráfico de Múltiples Líneas",
+       x = "Tiempo",
+       y = "Valor",
+       color = "País") +
+  scale_x_continuous(breaks = seq(min(seleccion_long$ANIO), max(seleccion_long$ANIO), by = 10)) +  # Años de 10 en 10
+  scale_y_continuous(breaks = seq(floor(min(seleccion_long$FEC)), ceiling(max(seleccion_long$FEC)), by = 0.25)) +  # Incrementos de 0.25 en el eje y
+  scale_size_identity() +  # Mantiene los tamaños especificados
+  theme_minimal() +
+  geom_text(aes(x = 2022, y = valor_arg_2022, label = round(valor_arg_2022, 2)), 
+            vjust = -1, color = "red")  # Añadir texto al lado de la línea
