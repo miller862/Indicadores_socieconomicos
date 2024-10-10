@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1728526248376.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B0737E07",
+    "lastKnownWriteTime" : 15199949394673715,
+    "last_content_update" : 1728526248376,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "BF672383",
+        "caption" : "NAC_ANUALES_PROV",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=NAC_ANUALES_PROV&cache_key=BF672383",
+        "displayedObservations" : 468,
+        "environment" : "",
+        "object" : "NAC_ANUALES_PROV",
+        "preview" : 0,
+        "totalObservations" : 468,
+        "variables" : 3
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

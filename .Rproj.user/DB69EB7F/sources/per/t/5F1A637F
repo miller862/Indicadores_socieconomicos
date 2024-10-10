@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1728527637971.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5F1A637F",
+    "lastKnownWriteTime" : 4189038573660037743,
+    "last_content_update" : 1728527637971,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8DB3A5B1",
+        "caption" : "NAT_long",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=NAT_long&cache_key=8DB3A5B1",
+        "displayedObservations" : 575,
+        "environment" : "",
+        "object" : "NAT_long",
+        "preview" : 0,
+        "totalObservations" : 575,
+        "variables" : 3
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
