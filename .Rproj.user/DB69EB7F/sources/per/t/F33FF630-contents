@@ -1,9 +1,10 @@
 library(tidyverse)
 library(ggplot2)
 library(readxl)
-
+library(eph)
+library(corrplot)
 ### SECCION 1: NACIDOS VIVOS ARGENTINA
-
+options(scipen = 999)
 #LECTURA DE DATOS
 nac05<-read.csv("datos/nacweb05.csv") %>% 
   mutate(ANIO=2005)
@@ -200,3 +201,63 @@ ggplot(seleccion_long, aes(x = ANIO, y = FEC, color = `Country Name`, group = `C
   theme_minimal() +
   geom_text(aes(x = 2022, y = valor_arg_2022, label = round(valor_arg_2022, 2)), 
             vjust = -1, color = "red")  # Añadir texto al lado de la línea
+
+
+
+### parte 4
+### correlaciones
+
+TABLAPEARSON<-read_xlsx("datos/PEARSON_INDICADORES_2022.xlsx")
+
+TABLAPEARSON<-TABLAPEARSON %>% 
+  select(-superficie_Km2,-Provincia,-Hogares,-Codigo,-Poblacion,-H_propietarios,-H_algun_nbi) %>% 
+  rename("Fecundidad"="fertilidad")
+
+glimpse(TABLAPEARSON)
+
+
+
+# Calcular la matriz de correlación
+cor_matrix <- cor(TABLAPEARSON)
+
+# Graficar la matriz de correlación
+#corrplot(cor_matrix, method = "color", col = colorRampPalette(c("#D80032", "white", "#2B2D42"))(200), 
+ #        tl.cex = 0.8, tl.col = "black", addCoef.col = "black")
+
+TABLAPEARSON_reduc<-TABLAPEARSON %>% 
+  select(-Densidad_pob)
+
+cor_matrix <- cor(TABLAPEARSON_reduc)
+
+# Crear una paleta de colores donde el valor 1 tenga un color distinto (verde)
+col <- colorRampPalette(c("#D80032", "white", "#067BC2"))(200)
+col[length(col)] <- "black"  # El último color será verde (#00FF00) para representar la correlación 1
+
+# Cerrar el dispositivo gráfico para finalizar el guardado
+dev.off()
+
+# Guardar el gráfico como imagen PNG con tamaños de texto ajustados
+png("output/correlation_plot_large.png", width = 1000, height = 1000)
+
+# Graficar el corrplot con ajustes de tamaño
+corrplot(cor_matrix, method = "color", col = col,
+         tl.cex = 1.5,       # Tamaño del texto de los nombres de las variables
+         tl.col = "black",   # Color de los nombres de las variables
+         addCoef.col = "black",  # Color de los números de correlación
+         number.cex = 2,   # Tamaño de los números de correlación
+         is.corr = TRUE, 
+         cl.cex = 1.2,       # Tamaño de la leyenda
+         number.digits = 2)  # Número de decimales para las correlaciones
+
+# Cerrar el dispositivo gráfico para guardar el archivo
+dev.off()
+
+
+#### pruebas con el logaritmo de densidad
+TABLAPEARSON$LOGdensidad <- log(TABLAPEARSON$Densidad_pob)
+
+cor(TABLAPEARSON$LOGdensidad,TABLAPEARSON$Ind_env, method = "spearman")
+
+plot(TABLAPEARSON$LOGdensidad,TABLAPEARSON$pct_propietarios)
+
+     
