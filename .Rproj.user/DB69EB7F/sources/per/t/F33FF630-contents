@@ -119,14 +119,7 @@ NAT <- read.csv("datos/NATALIDADDEIS2000-2022.csv") %>%
 NAT_long <- NAT %>%
   pivot_longer(-ANIO, names_to = "PROVINCIA", values_to = "valor")
 
-# Crear el gráfico de líneas
-ggplot(NAT_long, aes(x = ANIO, y = valor, color = PROVINCIA, group = PROVINCIA)) +
-  geom_line(aes(size = ifelse(PROVINCIA %in% c("Misiones","CABA", "totalARG"), 0.7, 0.5))) +
-  labs(title = "Gráfico de Múltiples Líneas",
-       x = "Tiempo",
-       y = "Valor",
-       color = "Variables") +
-  theme_minimal()
+
 
 ggplot(NAT_long, aes(x = ANIO, y = valor, color = PROVINCIA, group = PROVINCIA)) +
   geom_line(aes(size = ifelse(PROVINCIA %in% c("Misiones", "CABA", "totalARG"), 1.5, 0.5))) +  
