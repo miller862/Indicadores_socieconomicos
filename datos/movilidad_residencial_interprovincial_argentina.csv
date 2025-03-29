@@ -1,0 +1,553 @@
+"provincia_origen","provincia_destino","cantidad_migrantes"
+"Buenos Aires Interior","Amba",121309
+"Catamarca","Amba",3558
+"Chaco","Amba",22382
+"Chubut","Amba",13545
+"Cordoba","Amba",33883
+"Corrientes","Amba",29188
+"Entre Rios","Amba",24983
+"Formosa","Amba",16494
+"Jujuy","Amba",10996
+"La Pampa","Amba",5035
+"La Rioja","Amba",3280
+"Mendoza","Amba",13163
+"Misiones","Amba",42752
+"Neuquen","Amba",11302
+"Rio Negro","Amba",12039
+"Salta","Amba",21188
+"San Juan","Amba",4822
+"San Luis","Amba",8701
+"Santa Cruz","Amba",10381
+"Santa Fe","Amba",21464
+"Santiago Del Estero","Amba",18479
+"Tierra Del Fuego","Amba",8727
+"Tucuman","Amba",14781
+"Catamarca","Buenos Aires Interior",510
+"Chaco","Buenos Aires Interior",4022
+"Chubut","Buenos Aires Interior",6430
+"Cordoba","Buenos Aires Interior",9531
+"Corrientes","Buenos Aires Interior",8014
+"Entre Rios","Buenos Aires Interior",5937
+"Formosa","Buenos Aires Interior",2438
+"Jujuy","Buenos Aires Interior",2124
+"La Pampa","Buenos Aires Interior",5748
+"La Rioja","Buenos Aires Interior",559
+"Mendoza","Buenos Aires Interior",4288
+"Misiones","Buenos Aires Interior",7064
+"Neuquen","Buenos Aires Interior",4893
+"Rio Negro","Buenos Aires Interior",11613
+"Salta","Buenos Aires Interior",4228
+"San Juan","Buenos Aires Interior",1465
+"San Luis","Buenos Aires Interior",2452
+"Santa Cruz","Buenos Aires Interior",5036
+"Santa Fe","Buenos Aires Interior",15132
+"Santiago Del Estero","Buenos Aires Interior",5304
+"Tierra Del Fuego","Buenos Aires Interior",6227
+"Tucuman","Buenos Aires Interior",3246
+"Amba","Buenos Aires Interior ",179027
+"Amba","Catamarca",5328
+"Buenos Aires Interior","Catamarca",603
+"Chaco","Catamarca",137
+"Chubut","Catamarca",798
+"Cordoba","Catamarca",3394
+"Corrientes","Catamarca",94
+"Entre Rios","Catamarca",69
+"Formosa","Catamarca",92
+"Jujuy","Catamarca",381
+"La Pampa","Catamarca",37
+"La Rioja","Catamarca",2023
+"Mendoza","Catamarca",402
+"Misiones","Catamarca",137
+"Neuquen","Catamarca",214
+"Rio Negro","Catamarca",160
+"Salta","Catamarca",1069
+"San Juan","Catamarca",230
+"San Luis","Catamarca",136
+"Santa Cruz","Catamarca",1698
+"Santa Fe","Catamarca",399
+"Santiago Del Estero","Catamarca",2821
+"Tierra Del Fuego","Catamarca",246
+"Tucuman","Catamarca",3819
+"Amba","Chaco",27026
+"Buenos Aires Interior","Chaco",3157
+"Catamarca","Chaco",108
+"Chubut","Chaco",825
+"Cordoba","Chaco",3571
+"Corrientes","Chaco",6326
+"Entre Rios","Chaco",763
+"Formosa","Chaco",4099
+"Jujuy","Chaco",231
+"La Pampa","Chaco",206
+"La Rioja","Chaco",154
+"Mendoza","Chaco",386
+"Misiones","Chaco",1750
+"Neuquen","Chaco",479
+"Rio Negro","Chaco",309
+"Salta","Chaco",1687
+"San Juan","Chaco",161
+"San Luis","Chaco",223
+"Santa Cruz","Chaco",2110
+"Santa Fe","Chaco",9977
+"Santiago Del Estero","Chaco",2099
+"Tierra Del Fuego","Chaco",1780
+"Tucuman","Chaco",448
+"Amba","Chubut",17675
+"Buenos Aires Interior","Chubut",6702
+"Catamarca","Chubut",783
+"Chaco","Chubut",1237
+"Cordoba","Chubut",4007
+"Corrientes","Chubut",1862
+"Entre Rios","Chubut",1011
+"Formosa","Chubut",1528
+"Jujuy","Chubut",1542
+"La Pampa","Chubut",616
+"La Rioja","Chubut",591
+"Mendoza","Chubut",2917
+"Misiones","Chubut",2017
+"Neuquen","Chubut",2140
+"Rio Negro","Chubut",6697
+"Salta","Chubut",2928
+"San Juan","Chubut",1041
+"San Luis","Chubut",471
+"Santa Cruz","Chubut",9251
+"Santa Fe","Chubut",1699
+"Santiago Del Estero","Chubut",855
+"Tierra Del Fuego","Chubut",1362
+"Tucuman","Chubut",1193
+"Amba","Cordoba",57707
+"Buenos Aires Interior","Cordoba",11182
+"Catamarca","Cordoba",3733
+"Chaco","Cordoba",5302
+"Chubut","Cordoba",4668
+"Corrientes","Cordoba",4158
+"Entre Rios","Cordoba",4729
+"Formosa","Cordoba",3595
+"Jujuy","Cordoba",4699
+"La Pampa","Cordoba",3817
+"La Rioja","Cordoba",5245
+"Mendoza","Cordoba",6573
+"Misiones","Cordoba",4813
+"Neuquen","Cordoba",3413
+"Rio Negro","Cordoba",3305
+"Salta","Cordoba",7131
+"San Juan","Cordoba",3301
+"San Luis","Cordoba",8952
+"Santa Cruz","Cordoba",6228
+"Santa Fe","Cordoba",33920
+"Santiago Del Estero","Cordoba",8458
+"Tierra Del Fuego","Cordoba",4203
+"Tucuman","Cordoba",3454
+"Amba","Corrientes",38904
+"Buenos Aires Interior","Corrientes",6332
+"Catamarca","Corrientes",110
+"Chaco","Corrientes",6880
+"Chubut","Corrientes",1742
+"Cordoba","Corrientes",3469
+"Entre Rios","Corrientes",7831
+"Formosa","Corrientes",2563
+"Jujuy","Corrientes",417
+"La Pampa","Corrientes",415
+"La Rioja","Corrientes",150
+"Mendoza","Corrientes",492
+"Misiones","Corrientes",17038
+"Neuquen","Corrientes",664
+"Rio Negro","Corrientes",570
+"Salta","Corrientes",1090
+"San Juan","Corrientes",192
+"San Luis","Corrientes",246
+"Santa Cruz","Corrientes",2841
+"Santa Fe","Corrientes",6167
+"Santiago Del Estero","Corrientes",355
+"Tierra Del Fuego","Corrientes",1543
+"Tucuman","Corrientes",316
+"Amba","Entre Rios",36581
+"Buenos Aires Interior","Entre Rios",5715
+"Catamarca","Entre Rios",97
+"Chaco","Entre Rios",925
+"Chubut","Entre Rios",1157
+"Cordoba","Entre Rios",4160
+"Corrientes","Entre Rios",7779
+"Formosa","Entre Rios",725
+"Jujuy","Entre Rios",306
+"La Pampa","Entre Rios",389
+"La Rioja","Entre Rios",128
+"Mendoza","Entre Rios",700
+"Misiones","Entre Rios",4096
+"Neuquen","Entre Rios",993
+"Rio Negro","Entre Rios",782
+"Salta","Entre Rios",796
+"San Juan","Entre Rios",205
+"San Luis","Entre Rios",387
+"Santa Cruz","Entre Rios",1750
+"Santa Fe","Entre Rios",10815
+"Santiago Del Estero","Entre Rios",371
+"Tierra Del Fuego","Entre Rios",1503
+"Tucuman","Entre Rios",332
+"Amba","Formosa",18950
+"Buenos Aires Interior","Formosa",1740
+"Catamarca","Formosa",113
+"Chaco","Formosa",3794
+"Chubut","Formosa",1431
+"Cordoba","Formosa",2642
+"Corrientes","Formosa",2139
+"Entre Rios","Formosa",563
+"Jujuy","Formosa",410
+"La Pampa","Formosa",239
+"La Rioja","Formosa",100
+"Mendoza","Formosa",430
+"Misiones","Formosa",1183
+"Neuquen","Formosa",542
+"Rio Negro","Formosa",438
+"Salta","Formosa",2104
+"San Juan","Formosa",166
+"San Luis","Formosa",128
+"Santa Cruz","Formosa",4979
+"Santa Fe","Formosa",1818
+"Santiago Del Estero","Formosa",318
+"Tierra Del Fuego","Formosa",1698
+"Tucuman","Formosa",238
+"Amba","Jujuy",15450
+"Buenos Aires Interior","Jujuy",2015
+"Catamarca","Jujuy",346
+"Chaco","Jujuy",308
+"Chubut","Jujuy",1655
+"Cordoba","Jujuy",4358
+"Corrientes","Jujuy",430
+"Entre Rios","Jujuy",257
+"Formosa","Jujuy",478
+"La Pampa","Jujuy",181
+"La Rioja","Jujuy",729
+"Mendoza","Jujuy",2324
+"Misiones","Jujuy",360
+"Neuquen","Jujuy",868
+"Rio Negro","Jujuy",618
+"Salta","Jujuy",12658
+"San Juan","Jujuy",361
+"San Luis","Jujuy",319
+"Santa Cruz","Jujuy",3834
+"Santa Fe","Jujuy",762
+"Santiago Del Estero","Jujuy",394
+"Tierra Del Fuego","Jujuy",1995
+"Tucuman","Jujuy",2348
+"Amba","La Pampa",6150
+"Buenos Aires Interior","La Pampa",7542
+"Catamarca","La Pampa",44
+"Chaco","La Pampa",395
+"Chubut","La Pampa",758
+"Cordoba","La Pampa",3723
+"Corrientes","La Pampa",561
+"Entre Rios","La Pampa",372
+"Formosa","La Pampa",253
+"Jujuy","La Pampa",216
+"La Rioja","La Pampa",118
+"Mendoza","La Pampa",3173
+"Misiones","La Pampa",410
+"Neuquen","La Pampa",1593
+"Rio Negro","La Pampa",2496
+"Salta","La Pampa",473
+"San Juan","La Pampa",193
+"San Luis","La Pampa",1393
+"Santa Cruz","La Pampa",712
+"Santa Fe","La Pampa",625
+"Santiago Del Estero","La Pampa",418
+"Tierra Del Fuego","La Pampa",220
+"Tucuman","La Pampa",150
+"Amba","La Rioja",4128
+"Buenos Aires Interior","La Rioja",548
+"Catamarca","La Rioja",1963
+"Chaco","La Rioja",139
+"Chubut","La Rioja",526
+"Cordoba","La Rioja",4083
+"Corrientes","La Rioja",122
+"Entre Rios","La Rioja",155
+"Formosa","La Rioja",106
+"Jujuy","La Rioja",786
+"La Pampa","La Rioja",97
+"Mendoza","La Rioja",1811
+"Misiones","La Rioja",208
+"Neuquen","La Rioja",272
+"Rio Negro","La Rioja",289
+"Salta","La Rioja",1379
+"San Juan","La Rioja",2995
+"San Luis","La Rioja",575
+"Santa Cruz","La Rioja",1503
+"Santa Fe","La Rioja",553
+"Santiago Del Estero","La Rioja",341
+"Tierra Del Fuego","La Rioja",304
+"Tucuman","La Rioja",967
+"Amba","Mendoza",17434
+"Buenos Aires Interior","Mendoza",3975
+"Catamarca","Mendoza",386
+"Chaco","Mendoza",635
+"Chubut","Mendoza",2989
+"Cordoba","Mendoza",5677
+"Corrientes","Mendoza",575
+"Entre Rios","Mendoza",722
+"Formosa","Mendoza",449
+"Jujuy","Mendoza",1935
+"La Pampa","Mendoza",1893
+"La Rioja","Mendoza",1585
+"Misiones","Mendoza",791
+"Neuquen","Mendoza",6820
+"Rio Negro","Mendoza",2908
+"Salta","Mendoza",3118
+"San Juan","Mendoza",4412
+"San Luis","Mendoza",8174
+"Santa Cruz","Mendoza",3859
+"Santa Fe","Mendoza",1753
+"Santiago Del Estero","Mendoza",537
+"Tierra Del Fuego","Mendoza",1862
+"Tucuman","Mendoza",1574
+"Amba","Misiones",52102
+"Buenos Aires Interior","Misiones",5977
+"Catamarca","Misiones",144
+"Chaco","Misiones",2145
+"Chubut","Misiones",1744
+"Cordoba","Misiones",4225
+"Corrientes","Misiones",14043
+"Entre Rios","Misiones",3366
+"Formosa","Misiones",1424
+"Jujuy","Misiones",349
+"La Pampa","Misiones",425
+"La Rioja","Misiones",226
+"Mendoza","Misiones",730
+"Neuquen","Misiones",1195
+"Rio Negro","Misiones",842
+"Salta","Misiones",1084
+"San Juan","Misiones",276
+"San Luis","Misiones",270
+"Santa Cruz","Misiones",3007
+"Santa Fe","Misiones",2682
+"Santiago Del Estero","Misiones",362
+"Tierra Del Fuego","Misiones",2205
+"Tucuman","Misiones",406
+"Amba","Neuquen",21405
+"Buenos Aires Interior","Neuquen",6710
+"Catamarca","Neuquen",282
+"Chaco","Neuquen",1370
+"Chubut","Neuquen",3803
+"Cordoba","Neuquen",4210
+"Corrientes","Neuquen",1049
+"Entre Rios","Neuquen",1122
+"Formosa","Neuquen",1148
+"Jujuy","Neuquen",1247
+"La Pampa","Neuquen",1640
+"La Rioja","Neuquen",496
+"Mendoza","Neuquen",8856
+"Misiones","Neuquen",1583
+"Rio Negro","Neuquen",22315
+"Salta","Neuquen",5484
+"San Juan","Neuquen",1084
+"San Luis","Neuquen",850
+"Santa Cruz","Neuquen",2514
+"Santa Fe","Neuquen",1960
+"Santiago Del Estero","Neuquen",725
+"Tierra Del Fuego","Neuquen",715
+"Tucuman","Neuquen",2014
+"Amba","Rio Negro",23349
+"Buenos Aires Interior","Rio Negro",13021
+"Catamarca","Rio Negro",195
+"Chaco","Rio Negro",696
+"Chubut","Rio Negro",8143
+"Cordoba","Rio Negro",3792
+"Corrientes","Rio Negro",809
+"Entre Rios","Rio Negro",1005
+"Formosa","Rio Negro",637
+"Jujuy","Rio Negro",727
+"La Pampa","Rio Negro",2381
+"La Rioja","Rio Negro",533
+"Mendoza","Rio Negro",3733
+"Misiones","Rio Negro",1257
+"Neuquen","Rio Negro",24371
+"Salta","Rio Negro",1600
+"San Juan","Rio Negro",698
+"San Luis","Rio Negro",521
+"Santa Cruz","Rio Negro",3321
+"Santa Fe","Rio Negro",1944
+"Santiago Del Estero","Rio Negro",504
+"Tierra Del Fuego","Rio Negro",886
+"Tucuman","Rio Negro",2288
+"Amba","Salta",24039
+"Buenos Aires Interior","Salta",3850
+"Catamarca","Salta",946
+"Chaco","Salta",1587
+"Chubut","Salta",2680
+"Cordoba","Salta",6212
+"Corrientes","Salta",944
+"Entre Rios","Salta",747
+"Formosa","Salta",2174
+"Jujuy","Salta",9966
+"La Pampa","Salta",436
+"La Rioja","Salta",984
+"Mendoza","Salta",2633
+"Misiones","Salta",1115
+"Neuquen","Salta",2729
+"Rio Negro","Salta",1160
+"San Juan","Salta",532
+"San Luis","Salta",292
+"Santa Cruz","Salta",8034
+"Santa Fe","Salta",1876
+"Santiago Del Estero","Salta",1660
+"Tierra Del Fuego","Salta",3159
+"Tucuman","Salta",4955
+"Amba","San Juan",5697
+"Buenos Aires Interior","San Juan",1364
+"Catamarca","San Juan",216
+"Chaco","San Juan",202
+"Chubut","San Juan",908
+"Cordoba","San Juan",2897
+"Corrientes","San Juan",156
+"Entre Rios","San Juan",187
+"Formosa","San Juan",256
+"Jujuy","San Juan",352
+"La Pampa","San Juan",159
+"La Rioja","San Juan",3616
+"Mendoza","San Juan",4438
+"Misiones","San Juan",240
+"Neuquen","San Juan",804
+"Rio Negro","San Juan",559
+"Salta","San Juan",619
+"San Luis","San Juan",1566
+"Santa Cruz","San Juan",1646
+"Santa Fe","San Juan",435
+"Santiago Del Estero","San Juan",143
+"Tierra Del Fuego","San Juan",1158
+"Tucuman","San Juan",405
+"Amba","San Luis",18870
+"Buenos Aires Interior","San Luis",2999
+"Catamarca","San Luis",179
+"Chaco","San Luis",267
+"Chubut","San Luis",642
+"Cordoba","San Luis",9519
+"Corrientes","San Luis",304
+"Entre Rios","San Luis",452
+"Formosa","San Luis",194
+"Jujuy","San Luis",319
+"La Pampa","San Luis",1360
+"La Rioja","San Luis",1141
+"Mendoza","San Luis",12007
+"Misiones","San Luis",289
+"Neuquen","San Luis",779
+"Rio Negro","San Luis",498
+"Salta","San Luis",452
+"San Juan","San Luis",2209
+"Santa Cruz","San Luis",824
+"Santa Fe","San Luis",1927
+"Santiago Del Estero","San Luis",269
+"Tierra Del Fuego","San Luis",458
+"Tucuman","San Luis",296
+"Amba","Santa Cruz",10418
+"Buenos Aires Interior","Santa Cruz",3596
+"Catamarca","Santa Cruz",1319
+"Chaco","Santa Cruz",2005
+"Chubut","Santa Cruz",6423
+"Cordoba","Santa Cruz",3798
+"Corrientes","Santa Cruz",2621
+"Entre Rios","Santa Cruz",988
+"Formosa","Santa Cruz",4452
+"Jujuy","Santa Cruz",2505
+"La Pampa","Santa Cruz",372
+"La Rioja","Santa Cruz",1183
+"Mendoza","Santa Cruz",2879
+"Misiones","Santa Cruz",2518
+"Neuquen","Santa Cruz",1117
+"Rio Negro","Santa Cruz",1778
+"Salta","Santa Cruz",6760
+"San Juan","Santa Cruz",1247
+"San Luis","Santa Cruz",358
+"Santa Fe","Santa Cruz",1673
+"Santiago Del Estero","Santa Cruz",1140
+"Tierra Del Fuego","Santa Cruz",1348
+"Tucuman","Santa Cruz",1654
+"Amba","Santa Fe",26140
+"Buenos Aires Interior","Santa Fe",16243
+"Catamarca","Santa Fe",381
+"Chaco","Santa Fe",10015
+"Chubut","Santa Fe",1535
+"Cordoba","Santa Fe",25758
+"Corrientes","Santa Fe",6743
+"Entre Rios","Santa Fe",12629
+"Formosa","Santa Fe",2238
+"Jujuy","Santa Fe",722
+"La Pampa","Santa Fe",588
+"La Rioja","Santa Fe",400
+"Mendoza","Santa Fe",1697
+"Misiones","Santa Fe",3279
+"Neuquen","Santa Fe",1291
+"Rio Negro","Santa Fe",1378
+"Salta","Santa Fe",2377
+"San Juan","Santa Fe",485
+"San Luis","Santa Fe",1196
+"Santa Cruz","Santa Fe",2321
+"Santiago Del Estero","Santa Fe",5479
+"Tierra Del Fuego","Santa Fe",1704
+"Tucuman","Santa Fe",1245
+"Amba","Santiago Del Estero",23227
+"Buenos Aires Interior","Santiago Del Estero",5111
+"Catamarca","Santiago Del Estero",2718
+"Chaco","Santiago Del Estero",2357
+"Chubut","Santiago Del Estero",581
+"Cordoba","Santiago Del Estero",6409
+"Corrientes","Santiago Del Estero",354
+"Entre Rios","Santiago Del Estero",288
+"Formosa","Santiago Del Estero",286
+"Jujuy","Santiago Del Estero",391
+"La Pampa","Santiago Del Estero",323
+"La Rioja","Santiago Del Estero",342
+"Mendoza","Santiago Del Estero",538
+"Misiones","Santiago Del Estero",433
+"Neuquen","Santiago Del Estero",388
+"Rio Negro","Santiago Del Estero",313
+"Salta","Santiago Del Estero",1877
+"San Juan","Santiago Del Estero",199
+"San Luis","Santiago Del Estero",158
+"Santa Cruz","Santiago Del Estero",1145
+"Santa Fe","Santiago Del Estero",3720
+"Tierra Del Fuego","Santiago Del Estero",716
+"Tucuman","Santiago Del Estero",6600
+"Amba","Tierra Del Fuego",9968
+"Buenos Aires Interior","Tierra Del Fuego",5064
+"Catamarca","Tierra Del Fuego",269
+"Chaco","Tierra Del Fuego",2108
+"Chubut","Tierra Del Fuego",935
+"Cordoba","Tierra Del Fuego",3378
+"Corrientes","Tierra Del Fuego",1480
+"Entre Rios","Tierra Del Fuego",1016
+"Formosa","Tierra Del Fuego",1817
+"Jujuy","Tierra Del Fuego",2124
+"La Pampa","Tierra Del Fuego",175
+"La Rioja","Tierra Del Fuego",232
+"Mendoza","Tierra Del Fuego",1714
+"Misiones","Tierra Del Fuego",2276
+"Neuquen","Tierra Del Fuego",335
+"Rio Negro","Tierra Del Fuego",580
+"Salta","Tierra Del Fuego",3809
+"San Juan","Tierra Del Fuego",995
+"San Luis","Tierra Del Fuego",338
+"Santa Cruz","Tierra Del Fuego",1439
+"Santa Fe","Tierra Del Fuego",1589
+"Santiago Del Estero","Tierra Del Fuego",816
+"Tucuman","Tierra Del Fuego",2417
+"Amba","Tucuman",17643
+"Buenos Aires Interior","Tucuman",2477
+"Catamarca","Tucuman",4016
+"Chaco","Tucuman",450
+"Chubut","Tucuman",768
+"Cordoba","Tucuman",2621
+"Corrientes","Tucuman",328
+"Entre Rios","Tucuman",273
+"Formosa","Tucuman",225
+"Jujuy","Tucuman",2432
+"La Pampa","Tucuman",177
+"La Rioja","Tucuman",887
+"Mendoza","Tucuman",1296
+"Misiones","Tucuman",438
+"Neuquen","Tucuman",896
+"Rio Negro","Tucuman",1212
+"Salta","Tucuman",5550
+"San Juan","Tucuman",342
+"San Luis","Tucuman",214
+"Santa Cruz","Tucuman",1858
+"Santa Fe","Tucuman",1069
+"Santiago Del Estero","Tucuman",7044
+"Tierra Del Fuego","Tucuman",2102
