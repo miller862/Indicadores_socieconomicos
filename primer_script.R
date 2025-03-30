@@ -205,7 +205,8 @@ TABLAPEARSON<-read_xlsx("datos/PEARSON_INDICADORES_2022.xlsx")
 TABLAPEARSON<-TABLAPEARSON %>% 
   select(-superficie_Km2,-Provincia,-Hogares,-Codigo,-Poblacion,-H_propietarios,-H_algun_nbi) %>% 
   rename("Fecundidad"="fertilidad")
-
+  
+TABLAPEARSON$Fecundidad <- as.numeric(TABLAPEARSON$Fecundidad)
 glimpse(TABLAPEARSON)
 
 
@@ -230,7 +231,7 @@ col[length(col)] <- "black"  # El último color será verde (#00FF00) para repre
 dev.off()
 
 # Guardar el gráfico como imagen PNG con tamaños de texto ajustados
-png("output/correlation_plot_large.png", width = 1000, height = 1000)
+png("output/correlation_plot_large2.png", width = 1000, height = 1000)
 
 # Graficar el corrplot con ajustes de tamaño
 corrplot(cor_matrix, method = "color", col = col,
@@ -249,8 +250,8 @@ dev.off()
 #### pruebas con el logaritmo de densidad
 TABLAPEARSON$LOGdensidad <- log(TABLAPEARSON$Densidad_pob)
 
-cor(TABLAPEARSON$LOGdensidad,TABLAPEARSON$Ind_env, method = "spearman")
+cor(TABLAPEARSON$LOGdensidad,TABLAPEARSON$Fecundidad, method = "spearman")
 
-plot(TABLAPEARSON$LOGdensidad,TABLAPEARSON$pct_propietarios)
+plot(TABLAPEARSON$LOGdensidad,TABLAPEARSON$Fecundidad)
 
      
